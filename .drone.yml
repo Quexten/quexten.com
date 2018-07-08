@@ -1,0 +1,10 @@
+pipeline:
+  hugo:
+    image: cbrgm/drone-hugo:latest
+    validate: true
+  notify:
+    image: appleboy/drone-discord:1.0.0
+    webhook_id: 463933024396902410
+    webhook_token: b8WG8LkeHONfk0zY5fzC5XM_WGrLkIBI1glJrrd6-LBifkRXWpAlOcezqxPgyicF_pjl
+    when:
+      status: [ success, failure ]
