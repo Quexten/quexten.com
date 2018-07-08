@@ -1,5 +1,5 @@
 pipeline:
-  hugo:
+  build:
     image: cbrgm/drone-hugo:latest
     validate: true
   notify:
