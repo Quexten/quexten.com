@@ -1,0 +1,102 @@
+# Site settings
+baseurl = "https://quexten.com/site-refactor/"
+languageCode = "en-us"
+title = "Quexten.com"
+theme = "hugo-stellar-theme"
+
+[params]
+  [params.header]
+    title = "Quexten"
+    description = "Simple things don't break"
+    image = "https://quexten.com/avatar_256.png"
+  [[params.navigation]]
+    name = "About Me"
+    href = "#intro"
+
+  [[params.navigation]]
+    name = "Things I like"
+    href = "#first"
+
+  [[params.navigation]]
+    name = "Git"
+    href = "#second"
+
+  [params.intro]
+    title = "About me"
+    description = "Yo, I'm Bernd, a CS Student from Germany. I code fun projects in my spare time. "
+    image = "https://quexten.com/avatar_1920.png"
+
+  [[params.section]]
+    id = "first"
+    title = "My Trifecta"
+    description = ""
+
+    # the picture is storead at static/images/
+    [params.section.features]
+      enable = true
+      [[params.section.feature]]
+        title = "Open Source"
+        description = "Cause who likes doing stuff alone in a basement?"
+        icon = "fa-code"
+
+      [[params.section.feature]]
+        title = "Security"
+        description = "To keep private things private."
+        icon = "fa-lock"
+
+      [[params.section.feature]]
+        title = "Minimalism"
+        description = "The less things there are, the less can go wrong."
+        icon = "fa-diamond"
+
+  [[params.section]]
+    id = "second"
+    title = "Git"
+    description = ""
+    [params.section.content]
+      enable = true
+      text = "Most of my projects nowadays mainly reside on my own infrastructure. For now, project creation is limited but issues are welcome."
+
+    [params.section.footer]
+      enable = true
+      [[params.section.footer.action]]
+        buttontext = "Gitea"
+        buttonUrl = "https://git.quexten.com"
+
+  [params.footer]
+    enable = true
+    title = "Secure Contact"
+    description = "For signing i use the GPG Key with the Keyhandle 0x9DF98CBE01F0832B, if you want to contact me via my email, please use inline GPG with the key from quexten.com/contact@quexten.com.asc"
+
+    second_title = "Contact"
+    email = "contact@quexten.com"
+
+    [[params.footer.action]]
+      href = "https://quexten.com/privacy-policy.html"
+      buttontext = "Privacy"
+    [[params.footer.action]]
+      href = "https://quexten.com/about.html"
+      buttontext = "About"
+
+
+    # social icons
+    [params.footer.social_list]
+      enable = true
+
+      [[params.footer.social]]
+        title = "Twitter"
+        icon = "fa-twitter"
+        link = "https://twitter.com/quexten"
+      [[params.footer.social]]
+        title = "GitHub"
+        icon = "fa-github"
+        link = "https://github.com/quexten"
+      [[params.footer.social]]
+        title = "Email"
+        icon = "fa-envelope"
+        link = "mailto:contact@quexten.com"
+
+    # copyright
+    [params.footer.copyright]
+      enable = true
+      text = "© Bernd Schoolmann"
