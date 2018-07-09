@@ -2,6 +2,13 @@ pipeline:
   build:
     image: cbrgm/drone-hugo:latest
     validate: true
+
+  publish:
+    image: plugins/docker
+    repo: quexten/sso/api
+    tags: latest
+    secrets: [ docker_username, docker_password }
+
   notify:
     image: appleboy/drone-discord:1.0.0
     webhook_id: 463933024396902410
