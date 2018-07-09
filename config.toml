@@ -99,4 +99,4 @@ theme = "hugo-stellar-theme"
     # copyright
     [params.footer.copyright]
       enable = true
-      text = "© Bernd Schoolmann"
+      text = "© Bernd Schoolmann (Quexten)"
