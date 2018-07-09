@@ -36,7 +36,7 @@ theme = "hugo-stellar-theme"
       enable = true
       [[params.section.feature]]
         title = "Open Source"
-        description = "Cause who likes doing stuff alone in a basement?"
+        description = "To give back to the community."
         icon = "fa-code"
 
       [[params.section.feature]]
