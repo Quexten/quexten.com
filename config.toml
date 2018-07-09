@@ -7,7 +7,7 @@ theme = "hugo-stellar-theme"
 [params]
   [params.header]
     title = "Quexten"
-    description = "Simple things don't break"
+    description = "Simple things don't break!"
     image = "https://quexten.com/avatar_256.png"
   [[params.navigation]]
     name = "About Me"
