@@ -5,7 +5,7 @@ pipeline:
 
   publish:
     image: plugins/docker
-    repo: quexten/sso/api
+    repo: quexten/quexten.com
     tags: latest
     secrets: [ docker_username, docker_password ]
 
