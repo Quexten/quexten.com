@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://quexten.com/site-refactor/"
+baseurl = "https://quexten.com/"
 languageCode = "en-us"
 title = "Quexten.com"
 theme = "hugo-stellar-theme"
