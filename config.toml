@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://quexten.com/"
+baseurl = "https://quexten.pw/"
 languageCode = "en-us"
 title = "Quexten.com"
 theme = "hugo-stellar-theme"
@@ -8,7 +8,7 @@ theme = "hugo-stellar-theme"
   [params.header]
     title = "Quexten"
     description = "Simple things don't break!"
-    image = "https://quexten.com/avatar_256.png"
+    image = "https://quexten.pw/avatar_1920.png"
   [[params.navigation]]
     name = "About Me"
     href = "#intro"
@@ -24,7 +24,7 @@ theme = "hugo-stellar-theme"
   [params.intro]
     title = "About me"
     description = "Yo, I'm Bernd, a CS Student from Germany. I code fun projects in my spare time. "
-    image = "https://quexten.com/avatar_1920.png"
+    image = "https://quexten.pw/avatar_1920.png"
 
   [[params.section]]
     id = "first"
@@ -72,10 +72,10 @@ theme = "hugo-stellar-theme"
     email = "contact@quexten.com"
 
     [[params.footer.action]]
-      href = "https://quexten.com/privacy-policy.html"
+      href = "https://quexten.pw/privacy-policy.html"
       buttontext = "Privacy"
     [[params.footer.action]]
-      href = "https://quexten.com/about.html"
+      href = "https://quexten.pw/about.html"
       buttontext = "About"
 
 
