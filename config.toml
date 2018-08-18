@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://quexten.pw/"
+baseurl = "https://quexten.com/"
 languageCode = "en-us"
 title = "Quexten.com"
 theme = "hugo-stellar-theme"
@@ -8,7 +8,7 @@ theme = "hugo-stellar-theme"
   [params.header]
     title = "Quexten"
     description = "Simple things don't break!"
-    image = "https://quexten.pw/avatar_1920.png"
+    image = "https://quexten.com/avatar_1920.png"
   [[params.navigation]]
     name = "About Me"
     href = "#intro"
@@ -24,11 +24,11 @@ theme = "hugo-stellar-theme"
   [params.intro]
     title = "About me"
     description = "Yo, I'm Bernd, a CS Student from Germany. I code fun projects in my spare time. "
-    image = "https://quexten.pw/avatar_1920.png"
+    image = "https://quexten.com/avatar_1920.png"
 
   [[params.section]]
     id = "first"
-    title = "My Trifecta"
+    title = "A bit about me"
     description = ""
 
     # the picture is storead at static/images/
@@ -55,7 +55,7 @@ theme = "hugo-stellar-theme"
     description = ""
     [params.section.content]
       enable = true
-      text = "Most of my projects nowadays mainly reside on my own infrastructure. For now, project creation is limited but issues are welcome."
+      text = "I have a self-hosted Gitea instance up and running. For now, project creation is limited but issues are welcome."
 
     [params.section.footer]
       enable = true
@@ -72,10 +72,10 @@ theme = "hugo-stellar-theme"
     email = "contact@quexten.com"
 
     [[params.footer.action]]
-      href = "https://quexten.pw/privacy-policy.html"
+      href = "https://quexten.com/privacy-policy.html"
       buttontext = "Privacy"
     [[params.footer.action]]
-      href = "https://quexten.pw/about.html"
+      href = "https://quexten.com/about.html"
       buttontext = "About"
 
 
