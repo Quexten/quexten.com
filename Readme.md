@@ -1,1 +1,2 @@
-## Hugo config files for Quexten.com
+## Hugo config files for my personal website.
+
